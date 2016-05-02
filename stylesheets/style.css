@@ -1,0 +1,95 @@
+/* line 1, ../sass/partials/_base.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 5, ../sass/partials/_base.scss */
+body {
+  background: url(images/ocean.jpg);
+}
+
+/* line 9, ../sass/partials/_base.scss */
+.hit {
+  background: url("images/ship2.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/* line 13, ../sass/partials/_base.scss */
+.miss {
+  background: url("images/miss.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/* line 7, ../sass/style.scss */
+#board {
+  position: relative;
+  width: 1024px;
+  height: 863px;
+  margin: auto;
+  background: url("images/board.jpg") no-repeat center;
+  background-size: cover;
+  opacity: .7;
+  transition: all .3s ease-in;
+}
+/* line 16, ../sass/style.scss */
+#board:hover {
+  opacity: .9;
+}
+/* line 19, ../sass/style.scss */
+#board #messageArea {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  color: yellow;
+  font-size: 2em;
+  font-weight: 700;
+}
+/* line 27, ../sass/style.scss */
+#board table {
+  position: absolute;
+  left: 173px;
+  top: 98px;
+  border-spacing: 0px;
+}
+/* line 33, ../sass/style.scss */
+#board td {
+  width: 94px;
+  height: 94px;
+}
+/* line 37, ../sass/style.scss */
+#board form {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  padding: 15px;
+  background-color: #53af13;
+  width: 10%;
+  border-radius: 1em;
+}
+/* line 45, ../sass/style.scss */
+#board form #fireButton {
+  width: 70%;
+  border-radius: 2em;
+  height: 50px;
+  outline: none;
+  position: absolute;
+  bottom: -57px;
+  right: 14%;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+/* line 55, ../sass/style.scss */
+#board form #fireButton:hover {
+  color: red;
+}
+/* line 59, ../sass/style.scss */
+#board form #guessInput {
+  width: 95%;
+  height: 40px;
+  font-size: 1.5em;
+}
+/* line 66, ../sass/style.scss */
+#board form input {
+  background-color: #98cf71;
+  border-color: #53af13;
+}

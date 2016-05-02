@@ -1,0 +1,17 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	background: url(images/ocean.jpg);
+}
+
+.hit {
+background: url("images/ship2.jpg") no-repeat center;
+background-size: cover; ;
+}
+.miss {
+background: url("images/miss.jpg") no-repeat center;
+background-size: cover; ;
+
+}
